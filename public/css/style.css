@@ -48,7 +48,7 @@ h1{
     width: 75%;*/
     padding-bottom: 45px;
     font-size: 4.3em;
-    margin-right: 100px;
+    /*margin-right: 100px;*/
 }
 .btn a{
     font-family: 'Amaranth', sans-serif;
@@ -63,6 +63,10 @@ a{
 }
 .margin-left{
     margin-left: 100px;
+    margin-right: 0px;
+}
+.margin-right{
+    margin-right: 100px;
 }
 .left, .right{
     display: inline-block;
@@ -161,8 +165,9 @@ a{
     /*position: relative;
     top: -15%;
     text-align: center; --- if center */
-    position: relative;
-    top: -8%;
+    /*position: relative;
+    top: -8%;*/
+    margin-top: 1.5rem;
 }
 .overview .btn a{
     font-family: 'Amaranth', sans-serif;
@@ -186,4 +191,27 @@ a{
 }
 .overview a:hover{
     text-decoration: line-through;
+}
+footer{
+    background-color: #6356e5;
+    color: #f3f6f6;
+    height: 50vh;
+}
+.sponsor{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.sponsor p, img{
+    display: inline-block;
+}
+.sponsor p{
+    margin-right: 0.19rem;
+}
+.sponsor img{
+    height: 1rem;
+    position: relative;
+    top: 0.19rem;
+    margin-left: 0.19rem;
 }
