@@ -123,6 +123,7 @@ a{
     background-color: #6356e5;
     border: 1px solid #f3f6f6;
     color: #f3f6f6;
+    margin-right: 1.5rem;
 }
 .abstract .btn a:hover{
     background-color: #90eee1;
